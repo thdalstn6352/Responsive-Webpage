@@ -1,0 +1,228 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  color: #2b292d;
+}
+
+.landing {
+  width: 100%;
+  height: 568px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdded8;
+}
+
+.landing .title {
+  margin-bottom: 32px;
+}
+.landing .title h1 {
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 72px;
+  letter-spacing: -0.05;
+  text-align: center;
+  color: #2b292d;
+}
+
+.landing .description {
+  margin-bottom: 32px;
+}
+.landing .description p {
+  font-size: 22px;
+  line-height: 32px;
+  text-align: center;
+  color: #2b292d;
+  font-weight: 400;
+}
+
+.button-group {
+  width: 350px;
+  height: 56px;
+}
+.background-blue-bt {
+  width: 160px;
+  height: 56px;
+  padding: 14px 37px;
+  color: #fff;
+  background-color: #3040c4;
+  border: none;
+  border-radius: 2px;
+  margin-right: 16px;
+  font-size: 16px;
+  letter-spacing: -0.05px;
+  font-weight: bold;
+}
+.background-white-bt {
+  width: 160px;
+  height: 56px;
+  padding: 14px 37px;
+  color: #3040c4;
+  background-color: #fff;
+  border: none;
+  border-radius: 2px;
+  font-size: 15px;
+  letter-spacing: -0.05px;
+  font-weight: bold;
+}
+
+.service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 340px;
+  background-color: #f4f5f7;
+}
+
+.service .service-1 {
+  width: 370px;
+  margin-right: 110px;
+}
+
+.service .service-2 {
+  width: 450px;
+}
+
+.service .title {
+  font-size: 24px;
+  letter-spacing: -0.04px;
+  margin-bottom: 16px;
+}
+
+.service .description {
+  font-size: 22px;
+  letter-spacing: -0.01px;
+}
+
+.program {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 827px;
+}
+
+.program .category {
+  font-size: 22px;
+  color: #009b4d;
+  margin-bottom: 16px;
+}
+
+.program .title {
+  font-size: 56px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.program .description {
+  font-size: 22px;
+  width: 770px;
+  height: 96px;
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.program-images {
+  display: flex;
+}
+
+.img-1,
+.img-2,
+.img-3 {
+  width: 290px;
+  height: 299px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin-right: 30px;
+}
+
+.img-2 {
+  background-color: #3141c5;
+}
+.img-2 p {
+  color: #fff;
+}
+
+.program-images .img-1 img {
+  width: 142px;
+  height: 195px;
+  margin-bottom: 24px;
+}
+.program-images .img-2 img {
+  width: 146px;
+  height: 195px;
+  margin-bottom: 24px;
+}
+.program-images .img-3 img {
+  width: 123px;
+  height: 195px;
+  margin-bottom: 24px;
+}
+
+.program-images p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.curriculum {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 728px;
+}
+
+.content-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.curriculum .content-img .content {
+  width: 450px;
+  height: 408px;
+}
+
+.curriculum .content-img .img-4 {
+  width: 450px;
+  height: 450px;
+}
+
+.curriculum .content .category {
+  color: #0189d1;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.curriculum .content .title {
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -0.03;
+  margin-bottom: 32px;
+}
+
+.curriculum .content .description {
+  font-size: 22px;
+  margin-bottom: 72px;
+}
+
+.curriculum .content .background-blue-bt {
+  font-size: 15px;
+}
+
+.curriculum .details p {
+  display: inline-block;
+  width: 450px;
+  height: 78px;
+  margin-right: 30px;
+}
