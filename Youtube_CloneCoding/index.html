@@ -1,12 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/0bf31b224b.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css">
   <title>Youtube Clone Coding</title>
 </head>
+
 <body>
-  
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <i class="fab fa-youtube"></i>
+      <span class="titile">Youtube</span>
+    </div>
+    <div class="icons">
+      <i class="fas fa-search"></i>
+      <i class="fas fa-ellipsis-v"></i>
+    </div>
+  </header>
+  <!-- Video Player -->
+  <section class="player">
+    <video controls src="#"></video>
+  </section>
+
+  <div class="infoAndUpNext">
+    <!-- Video Info -->
+    <section class="info">
+      <div class="metadata">
+        <ul class="hashtags">
+          <li>#Minsoo</li>
+          <li>#Frontend</li>
+          <li>#Study</li>
+        </ul>
+        <div class="titleAndButton">
+          <span class="title clamp">유튜브 사이트를 반응형으로 만들어 볼꺼예요. 순수 HTML, CSS를 이용해서 (Javascript 약간) 만들어 보고, 다음에 Javascript를 배우면
+            동적으로 서버에서 데이터를 가져오는 연습을 더 해보도록 할께요.</span>
+          <button class="moreBtn">
+            <i class="fas fa-caret-down"></i>
+          </button>
+        </div>
+        <div class="views">
+          <span class="views">1M view 1 month ago</span>
+        </div>
+      </div>
+      <!-- Actions -->
+      <ul class="actions">
+        <li>
+          <button>
+            <i class="active fas fa-thumbs-up"></i>
+            <span>1K</span>
+          </button>
+        </li>
+        <li>
+          <button>
+            <i class="fas fa-thumbs-down"></i>
+            <span>0</span>
+          </button>
+        </li>
+        <li>
+          <button>
+            <i class="fas fa-share"></i>
+            <span>Share</span>
+          </button>
+        </li>
+        <li>
+          <button>
+            <i class="fas fa-plus"></i>
+            <span>Save</span>
+          </button>
+        </li>
+        <li>
+          <button>
+            <i class="fab fa-font-awesome-flag"></i>
+            <span>Report</span>
+          </button>
+        </li>
+      </ul>
+
+      <!-- Channel Description -->
+      <div class="channel">
+        <div class="metadata">
+          <img src="images/profile.jpg" alt="profile" />
+          <div class="info">
+            <span class="name">송민수유튜브클론</span>
+            <span class="subscribers">1M subscribers</span>
+          </div>
+        </div>
+        <button class="subscribe">subscribe</button>
+      </div>
+    </section>
+
+    <!-- Up Next -->
+    <section class="upNext">
+      <span class="title">Up next</span>
+      <ul>
+        <li class="item">
+          <div class="image">
+            <img src="images/logo.jpg" alt="">
+          </div>
+          <div class="info">
+            <span class="title">유튜브 사이트를 반응형으로 만들어 볼꺼예요. 순수 HTML, CSS를 이용해서 (Javascript 약간) 만들어 보고, 다음에 Javascript를 배우면
+              동적으로 서버에서 데이터를 가져오는 연습을 더 해보도록 할께요.</span>
+            <span class="name">송민수유튜브클론</span>
+            <span class="views">82k views</span>
+          </div>
+          <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+        </li>
+      </ul>
+    </section>
+  </div>
+<script src="main.js"></script>
 </body>
+
 </html>
